@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Fuel Cost Calculator</title>
+</head>
+<body>
+  <div class="calculator">
+    <h1>Fuel Cost Calculator By Pralin Khaira</h1>
+    <label for="distance">Trip Distance (km):</label>
+    <input type="number" id="distance" step="any" required>
+    
+    <label for="efficiency">Fuel Efficiency (km/l):</label>
+    <input type="number" id="efficiency" step="any" required>
+    
+    <label for="price">Fuel Price (Rs/l):</label>
+    <input type="number" id="price" step="any" required>
+    
+    <label for="days">Travel Days per Month (Days):</label>
+    <input type="number" id="days" required>
+
+    <label for="unit">Unit:</label> <!-- Added unit label -->
+    <select id="unit">
+      <option value="gallons">Gallons</option>
+      <option value="liters">Liters</option>
+    </select>
+
+    <button id="calculate-button">Calculate</button>
+
+    <div class="results">
+      <div class="result-box">
+        <h2>Per Trip:</h2>
+        <p><strong>Cost:</strong> <span id="costPerTrip"></span> <span class="unit">Rs</span></p>
+        <p><strong>Distance:</strong> <span id="distanceTrip"></span> <span class="unit">km</span></p>
+        <p><strong>Fuel Consumed:</strong> <span id="fuelConsumedTrip"></span> <span class="unit">litres</span></p>
+      </div>
+
+      <div class="result-box">
+        <h2>Per Month:</h2>
+        <p><strong>Cost:</strong> <span id="costPerMonth"></span> <span class="unit">Rs</span></p>
+        <p><strong>Distance:</strong> <span id="distanceMonth"></span> <span class="unit">km</span></p>
+        <p><strong>Fuel Consumed:</strong> <span id="fuelConsumedMonth"></span> <span class="unit">litres</span></p>
+      </div>
+
+      <div class="result-box">
+        <h2>Per Year:</h2>
+        <p><strong>Cost:</strong> <span id="costPerYear"></span> <span class="unit">Rs</span></p>
+        <p><strong>Distance:</strong> <span id="distanceYear"></span> <span class="unit">km</span></p>
+        <p><strong>Fuel Consumed:</strong> <span id="fuelConsumedYear"></span> <span class="unit">litres</span></p>
+      </div>
+    </div>
+
+    <!-- Error message display -->
+    <p id="error-mesage" class="error"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
