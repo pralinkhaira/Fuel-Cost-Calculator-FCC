@@ -130,6 +130,28 @@ This project not only serves as a practical tool for trip planning but also show
 
 </details>
 
+## Live Demo
+
+You can try out the Fuel Cost Calculator by visiting the live demo website:
+
+<img align="centre" alt="website" width="300" src="https://media.giphy.com/media/SbM8BK5zf3SQOSA5TJ/giphy.gif">
+
+- [**Fuel Cost Calculator Live Demo**](https://pralinkhaira.github.io/fcc-fuel-cost-calculator)
+
+Feel free to explore its features and functionality. If you have any feedback or suggestions, please don't hesitate to provide them.
+
+## Show Your Support
+
+If you find the Fuel Cost Calculator helpful and appreciate the effort put into its development, here's how you can show your support:
+
+- ⭐ **Star**: If you like this project, please consider giving it a star on GitHub. Your support motivates me to continue improving it.
+
+- 🚀 **Share**: Share this project with your friends, colleagues, and on social media to spread the word.
+
+- 🍴 **Fork**: If you have ideas for improvements or want to contribute to the project, feel free to fork it on GitHub.
+
+Your support is greatly appreciated!
+
 ## License
 
 This project is licensed under the [Custom No Copying and Distribution License](https://github.com/pralinkhaira/Fuel-Cost-Calculator-FCC/blob/main/LICENSE).
