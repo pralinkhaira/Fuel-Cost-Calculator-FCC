@@ -33,13 +33,51 @@ To use the calculator, follow these simple steps:
 - I began by creating a JavaScript class named `FuelCostCalculator` to encapsulate the logic for calculating fuel costs.
 - The class contains methods for various calculations, promoting a modular and organized approach.
 
+```javascript
+class FuelCostCalculator {
+  // Constructor and methods for fuel cost calculations
+}
+```
+
 ### Switch Statement Implementation
 - To allow users to select between "Gallons" and "Liters" as the unit for displaying fuel consumption, I implemented a switch statement.
 - The `switchUnit` method within the class handles this selection and returns the chosen unit.
 
+```javascript
+class FuelCostCalculator {
+  switchUnit(unit) {
+    switch (unit) {
+      case 'Gallons':
+        // Handle Gallons logic
+        break;
+      case 'Liters':
+        // Handle Liters logic
+        break;
+      default:
+        // Handle default case
+        break;
+    }
+  }
+}
+```
+
 ### Input Validation with Try-Catch-Finally
 - To ensure a smooth user experience and robust error handling, I employed a try-catch block.
 - If you enter non-numeric values or make mistakes, the calculator displays an error message and gracefully handles exceptions.
+
+```javascript
+class FuelCostCalculator {
+  tryCalculateFuelCost() {
+    try {
+      // Perform calculations
+    } catch (error) {
+      // Handle errors and display an error message
+    } finally {
+      // Clean up resources if necessary
+    }
+  }
+}
+```
 
 ### Result Display Logic
 - I carefully designed the logic for displaying the results for different timeframes (trip, month, and year) by utilizing class methods and variables.
