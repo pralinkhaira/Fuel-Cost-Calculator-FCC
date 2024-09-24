@@ -1,8 +1,6 @@
 
 # Fuel Cost Calculator ~ Pralin Khaira
 
-## JavaScript Intermediate Campaign Bounty ~ StackUp
-
 ## Instructions
 
 Welcome to the Fuel Cost Calculator! I have developed this web application as part of the JavaScript Intermediate Campaign Bounty held by StackUp. The campaign aimed to apply the knowledge gained during the JavaScript Intermediate campaign by creating a website that utilizes fundamental JavaScript concepts, including classes, switch statements, and try-catch-finally statements.
